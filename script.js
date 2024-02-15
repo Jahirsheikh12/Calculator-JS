@@ -12,6 +12,10 @@ Array.from(btn).forEach((button) => {
             str = eval(str);
             dis.value = str;
         }
+        else if(e.target.innerHTML == 'AC'){
+            str = '';
+            dis.value = str;
+        }
         else {
             console.log(e.target);
             str = str + e.target.innerText;
