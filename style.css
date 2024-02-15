@@ -18,13 +18,18 @@ body {
     border: 2px solid black;
     display: grid;
     place-content: center;
+    background-color: rgb(44, 42, 42);
+    border-radius: 10px;
 }
 
 #display {
-    width: 272px;
+    width: 320px;
     padding: 20px;
     font-size: 25px;
     margin-bottom: 30px;
+    background-color: rgb(72, 70, 70);
+    color: white;
+    font-weight: 600;
 }
 /* 
 .btn {
@@ -36,9 +41,19 @@ button {
     padding: 20px;
     margin: 10px;
     border: none;
+    border-radius: 10px;
+    background-color: rgb(252, 214, 43);
+    font-weight: 700;
+    font-size: 18px;
+    width: 60px;
 
+}
+
+button:hover {
+    background-color: rgb(251, 251, 146);
 }
 
 .btn-top button {
     padding: 15px;
+    font-size: 15px;
 }
